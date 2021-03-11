@@ -1,0 +1,68 @@
+.section {
+  padding: 15px;
+}
+
+.section__h1 {
+  text-align: center;
+  color: hsl(0, 0%, 100%);
+  font-size: 26px;
+  padding: 25px;
+  cursor: context-menu; 
+  transition: 0.3s;
+}
+
+.section__h1--lightseagreen {
+  background-color: hsl(177, 70%, 41%);
+}
+
+.section__h1--lightseagreen:active {
+  background-color: hsl(177, 70%, 41%);
+  transform: scale(1.1);
+}
+
+.section__h1--blue {
+  background-color: hsl(240, 100%, 60%);
+}
+
+.section__h1--blue:active {
+  background-color: hsl(240, 100%, 70%);
+  transform: scale(1.1);
+}
+
+.section__h1--violet {
+  background-color: hsl(300, 76%, 72%);
+}
+
+.section__h1--violet:active {
+  background-color: hsl(300, 76%, 62%);
+  transform: scale(1.1);
+}
+
+.section__h1--orange {
+  background-color: hsl(39, 100%, 50%);
+}
+
+.section__h1--orange:active {
+  background-color: hsl(39, 100%, 60%);
+  transform: scale(1.1);
+}
+
+.section__h1--link {
+  text-decoration: none;
+  cursor: context-menu; 
+}
+
+.section__button {
+  background-color: hsl(0, 0%, 83%);
+  border-style: none;
+  font-size: 22px;
+  padding: 8px;
+  margin: 5px;
+  cursor: context-menu; 
+}
+
+.section__button--link {
+  color: hsl(0, 0%, 0%);
+  text-decoration: none;
+  cursor: context-menu;
+}
