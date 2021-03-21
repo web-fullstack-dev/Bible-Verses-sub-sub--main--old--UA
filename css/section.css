@@ -11,21 +11,21 @@
   transition: 0.3s;
 }
 
-.section__h1--lightseagreen {
-  background-color: hsl(177, 70%, 41%);
+.section__h1--yellow {
+  background-color: hsl(60, 100%, 50%);
 }
 
-.section__h1--lightseagreen:active {
-  background-color: hsl(177, 70%, 41%);
+.section__h1--yellow:active {
+  background-color: hsl(60, 100%, 60%);
   transform: scale(1.1);
 }
 
-.section__h1--blue {
-  background-color: hsl(240, 100%, 60%);
+.section__h1--aqua {
+  background-color: hsl(180, 100%, 50%);
 }
 
-.section__h1--blue:active {
-  background-color: hsl(240, 100%, 70%);
+.section__h1--aqua:active {
+  background-color: hsl(180, 100%, 60%);
   transform: scale(1.1);
 }
 
